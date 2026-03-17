@@ -1,4 +1,17 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23167503&assignment_repo_type=AssignmentRepo)
-# GAMR1530 Coursework 2026
-You are to build a ray tracer in JavaScript which uses the Phong Lighting model.
-This repo will be your submission.
+Name: Daniyal Abed
+Date:March/2026
+
+
+Vector math: for this part i made a custom ve3 class that handles fundamental linear algebra, such as normalization, vector subtraction, and dot products
+Ray generation:A view plane is used to cast rays from a virtual camera origin (0, 0, 0)
+Ray-Sphere intersection:I calculated the discriminant using the quadratic equation to see if a ray strikes a sphere which is d = b(squared) - 4ac
+Ambience: A steady base light intensity to prevent total darkness in the shadows
+Diffusion: Lambert's Cosine Law is used to calculate the spread of light across the surface.
+Specular: calculated to produce sparkling highlights based on the viewer's position and the reflection vector
+Shadows: A shadow ray is directed toward the light source at each hit point. The point is displayed using solely ambient light if an intersection is discovered.
+
+How to run::
+Ensure that index.html and raytracer.js are in the same directory (folder)
+Open the index.html in any browser of your choice 
+Then click the start render button 
+
